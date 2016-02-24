@@ -54,6 +54,10 @@ $_SESSION['myName'] = "Saori";
 echo $_SESSION['myName'];
 */
 
+session_start();
+$_SESSION['myName'] = "Saori";
+echo $_SESSION['myName'];
+
 
 $dbh = null;
  ?>

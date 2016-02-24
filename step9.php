@@ -10,5 +10,5 @@ echo sum($array1);
   }
  return $sum;
  }
-
+}
 ?>
